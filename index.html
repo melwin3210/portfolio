@@ -3,77 +3,180 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Melwin Fernandez - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Melwin Fernandez - React JS Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <header>
-        <div class="header-content">
-            <img src="profile.jpg" alt="Profile Picture" class="profile-image">
-            <h1>Melwin Fernandez</h1>
-            <p>Software Developer</p>
-            <div class="contact-info">
-                <div class="contact-item">
-                    <i class="fas fa-envelope"></i>
-                    <a href="mailto:melwin.fernandez@example.com">melwin.fernandez@example.com</a>
-                </div>
-                <div class="contact-item">
-                    <i class="fas fa-phone"></i>
-                    <a href="tel:+15551234567">+1 (555) 123-4567</a>
-                </div>
-                <div class="contact-item">
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="name">MELWIN FERNANDEZ</h1>
+                <h2 class="title">REACT JS DEVELOPER</h2>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:melwin3210@gmail.com">melwin3210@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+91 6380449631</span>
+                    </div>
+                     <div class="contact-item">
                     <i class="fab fa-linkedin"></i>
                     <a href="https://www.linkedin.com/in/melwinfernandez" target="_blank">LinkedIn Profile</a>
                 </div>
-            </div>
-            <div class="resume-download">
-                <a href="resume.pdf" download="Melwin_Fernandez_Resume.pdf" class="download-btn">
-                    <i class="fas fa-download"></i>
-                    Download Resume
-                </a>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Mahe, Pondicherry, India</span>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>
-            I am a passionate software developer with experience in web development, mobile applications, and database management. I enjoy creating innovative solutions to complex problems and am always eager to learn new technologies.
-        </p>
-    </section>
+    <main class="main">
+        <div class="container">
+            <section class="about-section">
+                <h3 class="section-title">About Me</h3>
+                <p class="about-text">
+                    Front-End Developer with 3.5 years of hands-on experience specializing in React.js, Next.js, and 
+                    REDUX. Adept at building high-performance web applications with a focus on responsive design, 
+                    seamless user experience, and modern development best practices. Proficient in both client-side and 
+                    server-side rendering, state management using Redux, and crafting elegant UIs with CSS and Tailwind 
+                    CSS. Eager to contribute to innovative projects in both web and mobile development.
+                </p>
+            </section>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>React</li>
-            <li>Node.js</li>
-            <li>SQL</li>
-        </ul>
-    </section>
+            <div class="two-column">
+                <div class="left-column">
+                    <section class="skills-section">
+                        <h3 class="section-title">Skills</h3>
+                        <div class="skills-grid">
+                            <div class="skill-category">
+                                <h4>Frontend Technologies</h4>
+                                <div class="skills-list">
+                                    <span class="skill-tag">React.js</span>
+                                    <span class="skill-tag">Next.js</span>
+                                    <span class="skill-tag">React Native</span>
+                                    <span class="skill-tag">JavaScript</span>
+                                    <span class="skill-tag">TypeScript</span>
+                                    <span class="skill-tag">HTML</span>
+                                    <span class="skill-tag">CSS</span>
+                                </div>
+                            </div>
+                            <div class="skill-category">
+                                <h4>State Management & Styling</h4>
+                                <div class="skills-list">
+                                    <span class="skill-tag">Redux</span>
+                                    <span class="skill-tag">Zustand</span>
+                                    <span class="skill-tag">Tailwind CSS</span>
+                                </div>
+                            </div>
+                            <div class="skill-category">
+                                <h4>Testing & Problem Solving</h4>
+                                <div class="skills-list">
+                                    <span class="skill-tag">Jest</span>
+                                    <span class="skill-tag">Critical Thinking</span>
+                                    <span class="skill-tag">Problem Solving</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Project 1: Personal Portfolio Website</h3>
-            <p>
-                A personal portfolio website built using HTML, CSS, and JavaScript to showcase my skills and projects.
-            </p>
+                    <section class="languages-section">
+                        <h3 class="section-title">Languages</h3>
+                        <div class="languages-list">
+                            <span class="language-tag">Malayalam</span>
+                            <span class="language-tag">English</span>
+                            <span class="language-tag">Tamil</span>
+                        </div>
+                    </section>
+
+                    <section class="education-section">
+                        <h3 class="section-title">Education</h3>
+                        <div class="education-item">
+                            <h4>B. TECH</h4>
+                            <p class="institution">Christ College of Engineering and Technology, Pondicherry</p>
+                            <p class="grade">CGPA: 7.05</p>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="right-column">
+                    <section class="experience-section">
+                        <h3 class="section-title">Experience</h3>
+                        
+                        <div class="experience-item">
+                            <div class="job-header">
+                                <h4 class="job-title">NEXT JS DEVELOPER</h4>
+                                <p class="company">Tata Consultancy Services (TCS)</p>
+                                <p class="duration">09/2024 - Present, Kochi</p>
+                                <p class="project">Project: Jazeera Airways</p>
+                            </div>
+                            <div class="job-content">
+                                <h5>Key Responsibilities:</h5>
+                                <ul class="responsibilities">
+                                    <li>Developed and maintained a scalable flight booking web application, focusing on performance, responsiveness, and seamless user interactions.</li>
+                                    <li>Implemented Redux for efficient app-wide state management, enhancing data flow and maintainability across the application.</li>
+                                    <li>Used react-hook-form along with Zod for building robust and validated form workflows, ensuring data integrity and user-friendly form experiences.</li>
+                                    <li>Played an active role in the migration of the application to Next.js, enabling server-side rendering (SSR) and improved SEO for better user reach and performance.</li>
+                                    <li>Quickly upskilled in Next.js to support the migration, contributing to both front-end development and application architecture decisions.</li>
+                                    <li>Integrated REST APIs for dynamic content delivery and handled complex data interactions between client and server.</li>
+                                    <li>Resolved critical and complex bugs under tight timelines, ensuring smooth feature rollouts and reducing production issues.</li>
+                                    <li>Used Tailwind CSS to build responsive, clean, and modern user interfaces aligned with the design system.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="experience-item">
+                            <div class="job-header">
+                                <h4 class="job-title">REACT JS DEVELOPER</h4>
+                                <p class="duration">05/2022 - 09/2024</p>
+                                <p class="project">Project: Whitbread Co-pilot</p>
+                            </div>
+                            <div class="job-content">
+                                <h5>Key Responsibilities:</h5>
+                                <ul class="responsibilities">
+                                    <li>Designed and implemented responsive, user-friendly interfaces for multiple modules using Figma wireframes, ensuring design consistency and usability.</li>
+                                    <li>Led the end-to-end delivery of JIRA stories, actively contributing to effort estimation, sprint planning, and requirement analysis.</li>
+                                    <li>Integrated ServiceNow and Newgen APIs into the frontend through close collaboration with backend teams, ensuring robust and seamless functionality.</li>
+                                    <li>Developed and deployed an AI-powered chat feature within the community section, enhancing user engagement and support.</li>
+                                    <li>Implemented offline support, enabling key features of the application to work smoothly without internet connectivity, improving reliability for end users.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="experience-item">
+                            <div class="job-header">
+                                <h4 class="job-title">ANGULAR DEVELOPER</h4>
+                                <p class="duration">12/2021 - 05/2022</p>
+                                <p class="project">Project: GE Healthcare Application for Technician Tool Ordering</p>
+                            </div>
+                            <div class="job-content">
+                                <h5>Key Responsibilities:</h5>
+                                <ul class="responsibilities">
+                                    <li>Developed and maintained a healthcare web application used by technicians for tool ordering, designed for both web and mobile platforms.</li>
+                                    <li>Integrated major forms within the application, ensuring smooth data flow and user interaction.</li>
+                                    <li>Consumed REST APIs to fetch and submit data, dynamically displaying content across various pages based on API responses.</li>
+                                    <li>Identified and resolved critical bugs, contributing to a faster and more efficient deployment process.</li>
+                                    <li>Collaborated with backend teams to ensure seamless integration and API performance.</li>
+                                    <li>Applied responsive design techniques using CSS to enhance usability across devices.</li>
+                                    <li>Played a key role in enhancing the UI/UX for improved user satisfaction and accessibility.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
         </div>
-        <div class="project">
-            <h3>Project 2: Mobile App for Task Management</h3>
-            <p>
-                A mobile application developed using React Native for managing tasks and increasing productivity.
-            </p>
-        </div>
-    </section>
+    </main>
 
-    <footer>
-        <p>Thank you for visiting my portfolio!</p>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Melwin Fernandez. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
